@@ -1,0 +1,108 @@
+Overview
+
+The Time Tracker Console Application is a C#-based command-line tool that enables users to track time spent on various personal and work-related tasks. The application follows the Model-View-Controller (MVC) architecture and is designed to facilitate easy time tracking, task categorization, and productivity analysis. It allows users to start, stop, and pause task timers, generate reports, and export data in CSV format, all within a Windows command-line environment.
+
+Application Features
+
+Core Features
+
+User Authentication
+
+Account creation and login through command-line prompts.
+
+Secure storage and access of user data within the .NET Core framework.
+
+Task Management
+
+Create, edit, and delete tasks using console commands.
+
+Categorize tasks based on projects or activity types.
+
+Time Tracking
+
+Start, stop, and pause timers for tasks via console input.
+
+Allow manual adjustment of time entries.
+
+Record timestamps for activity start and stop.
+
+Reporting
+
+View daily, weekly, or monthly summaries in a text-based format.
+
+Filter time entries by task or category through command-line queries.
+
+Data Export
+
+Export time-tracking data in CSV format through console commands.
+
+Advanced Features
+
+Notifications
+
+Console-based reminders for long-running tasks.
+
+Generate alerts when predefined time limits on tasks are reached.
+
+Integration
+
+Potential for integration with other command-line tools for enhanced productivity.
+
+Additional Features
+
+User Interface Enhancements
+
+Dashboard view for current and recent activities.
+
+Task list management with sorting and filtering options.
+
+Reporting tools for time analysis with textual summaries.
+
+Data Management
+
+Local storage support for offline access and backup.
+
+Application Design
+
+The application follows the MVC pattern for better separation of concerns:
+
+Model
+
+Represents the application's data structure and business logic.
+
+Includes classes for Users, Tasks, and Time Entries.
+
+View
+
+Handles console-based UI interactions.
+
+Displays task lists, reports, and notifications.
+
+Controller
+
+Manages user inputs and updates the model accordingly.
+
+Ensures smooth communication between the Model and the View.
+
+Application Architecture
+
+The system consists of the following key components:
+
+InputManager: Handles user input collection and processing.
+
+OutputManager: Manages console output, including reports and notifications.
+
+Validator: Ensures input data is correctly formatted and valid.
+
+Application: Main application logic, handling user authentication and operations.
+
+UserRegistration: Manages user account creation and login.
+
+TimeTracker: Core class responsible for task management and time tracking.
+
+FileHandler (Optional): Manages file-based storage and retrieval of time-tracking data.
+
+Conclusion
+
+The Time Tracker Console Application is designed to provide a simple yet effective solution for tracking time spent on various activities. By leveraging the MVC architecture, it ensures a structured and maintainable codebase. The application's features, including task management, time tracking, reporting, and data export, contribute to improved productivity and better time management for users. Future enhancements may include further integrations with external tools and extended automation capabilities.
+
